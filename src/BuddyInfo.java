@@ -38,6 +38,6 @@ public class BuddyInfo {
 	}
 	
 	public String toString() {
-		return this.getName() + " " + this.getAddress() + " " + this.getPhonenumber();
+		return this.getName() + "," + this.getAddress() + "," + this.getPhonenumber();
 	}
 }
